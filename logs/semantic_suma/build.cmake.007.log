@@ -1,0 +1,88 @@
+Not searching for unused variables given on the command line.
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/FindOpenGL.cmake:275 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:7 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[36m--[0m Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.65.1") found components: filesystem system serialization thread date_time regex timer chrono
+[36m--[0m GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include;/usr/include;/usr/local/include/gtsam/3rdparty/Eigen/
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /catkin_ws/devel/.private/semantic_suma
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/seonnnu/suma/GTSAM
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/lib/python3/dist-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /catkin_ws/build/semantic_suma/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+TensorRT available!
+CUDA Libs: /usr/lib/x86_64-linux-gnu/libcudart_static.a;-lpthread;dl;/usr/lib/x86_64-linux-gnu/librt.so
+CUDA Headers: /usr/include
+NVINFER: /usr/lib/libnvinfer.so
+NVINFERPLUGIN: /usr/lib/libnvinfer_plugin.so
+NVPARSERS: /usr/lib/libnvparsers.so
+NVONNXPARSER: /usr/lib/libnvonnxparser.so
+NVONNXPARSERRUNTIME: /usr/lib/libnvonnxparser_runtime.so
+All togheter now (libs): /usr/lib/x86_64-linux-gnu/libcudart_static.a;-lpthread;dl;/usr/lib/x86_64-linux-gnu/librt.so;nvinfer;nvinfer_plugin;nvparsers;nvonnxparser;nvonnxparser_runtime
+All togheter now (inc): /usr/include
+Enabling Nvidia OpenGL extensions.
+[36m--[0m Using OpenGL version 430.
+[36m--[0m Configuring done
+CMake Warning (dev) in CMakeLists.txt:
+  Policy CMP0071 is not set: Let AUTOMOC and AUTOUIC process GENERATED files.
+  Run "cmake --help-policy CMP0071" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  For compatibility, CMake is excluding the GENERATED source file(s):
+
+    "/catkin_ws/build/semantic_suma/visualization_shaders.cpp"
+
+  from processing by AUTOMOC.  If any of the files should be processed, set
+  CMP0071 to NEW.  If any of the files should not be processed, explicitly
+  exclude them by setting the source file property SKIP_AUTOMOC:
+
+    set_property(SOURCE file.h PROPERTY SKIP_AUTOMOC ON)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  Policy CMP0071 is not set: Let AUTOMOC and AUTOUIC process GENERATED files.
+  Run "cmake --help-policy CMP0071" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  For compatibility, CMake is excluding the GENERATED source file(s):
+
+    "/catkin_ws/build/semantic_suma/computation_shaders.cpp"
+
+  from processing by AUTOMOC.  If any of the files should be processed, set
+  CMP0071 to NEW.  If any of the files should not be processed, explicitly
+  exclude them by setting the source file property SKIP_AUTOMOC:
+
+    set_property(SOURCE file.h PROPERTY SKIP_AUTOMOC ON)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /catkin_ws/build/semantic_suma

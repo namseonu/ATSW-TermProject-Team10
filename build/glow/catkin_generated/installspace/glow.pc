@@ -1,0 +1,8 @@
+prefix=/catkin_ws/install
+
+Name: glow
+Description: Description of glow
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lglow -lglow_util
+Requires: 

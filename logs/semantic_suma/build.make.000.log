@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target robovision_autogen[0m
+[  1%] [34m[1mAutomatic MOC for target robovision[0m
+[  1%] Built target robovision_autogen
+[35m[1mScanning dependencies of target robovision[0m
+[  3%] [32mBuilding CXX object CMakeFiles/robovision.dir/robovision_autogen/mocs_compilation.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/CompositeParameter.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/FileUtil.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/Math.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/Laserscan.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/ParameterList.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/ParameterListIterator.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/Parameter.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/RangeParameter.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/Random.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/string_utils.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/transform.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/XmlDocument.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/XmlNode.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/Stopwatch.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/PrimitiveParameters.cpp.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/robovision.dir/src/rv/yxml.c.o[0m
+In file included from [01m[K/catkin_ws/src/semantic_suma/src/rv/Laserscan.cpp:1[m[K:
+[01m[K/catkin_ws/src/semantic_suma/src/rv/Laserscan.h:17:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/core/core.hpp: 그런 파일이나 디렉터리가 없습니다
+   17 | #include [01;31m[K<opencv2/core/core.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/robovision.dir/build.make:102: CMakeFiles/robovision.dir/src/rv/Laserscan.cpp.o] 오류 1
+make[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+make[1]: *** [CMakeFiles/Makefile2:367: CMakeFiles/robovision.dir/all] 오류 2
+make: *** [Makefile:141: all] 오류 2

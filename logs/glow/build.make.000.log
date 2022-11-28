@@ -1,0 +1,45 @@
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target glow_util[0m
+[35m[1mScanning dependencies of target glow[0m
+[  8%] [32mBuilding CXX object CMakeFiles/glow_util.dir/src/glow/util/X11OffscreenContext.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/glow_util.dir/src/glow/util/RoSeCamera.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/glow_util.dir/src/glow/util/GlCamera.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/glow_util.dir/src/glow/util/RandomColorGenerator.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/glow_util.dir/src/glow/util/FpsCamera.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/glutil.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/glexception.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlProgram.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlShader.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlVertexArray.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlTexture.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlUniform.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlTextureRectangle.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlFramebuffer.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlRenderbuffer.cpp.o[0m
+[ 45%] [32mBuilding CXX object gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlTransformFeedback.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlQuery.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlSampler.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlState.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlColor.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlShaderCache.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlCapabilities.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/glow.dir/src/glow/GlTextureBuffer.cpp.o[0m
+[ 71%] [32m[1mLinking CXX shared library /catkin_ws/devel/.private/glow/lib/libglow_util.so[0m
+[ 71%] Built target glow_util
+[ 74%] [32m[1mLinking CXX shared library /catkin_ws/devel/.private/glow/lib/libglow.so[0m
+[ 74%] Built target glow
+[ 77%] [32m[1mLinking CXX shared library ../lib/libgtest.so[0m
+[ 77%] Built target gtest
+[35m[1mScanning dependencies of target gtest_main[0m
+[ 80%] [32mBuilding CXX object gtest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 82%] [32m[1mLinking CXX shared library ../lib/libgtest_main.so[0m
+[ 82%] Built target gtest_main
+[35m[1mScanning dependencies of target glow_test[0m
+[ 97%] [32mBuilding CXX object test/CMakeFiles/glow_test.dir/framebuffer-test.cpp.o[0m
+[ 97%] [32mBuilding CXX object test/CMakeFiles/glow_test.dir/main.cpp.o[0m
+[ 97%] [32mBuilding CXX object test/CMakeFiles/glow_test.dir/color-test.cpp.o[0m
+[ 97%] [32mBuilding CXX object test/CMakeFiles/glow_test.dir/buffer-test.cpp.o[0m
+[ 97%] [32mBuilding CXX object test/CMakeFiles/glow_test.dir/texture-test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /catkin_ws/devel/.private/glow/lib/glow/glow_test[0m
+[100%] Built target glow_test

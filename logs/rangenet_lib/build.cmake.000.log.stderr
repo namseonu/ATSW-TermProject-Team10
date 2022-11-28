@@ -1,0 +1,16 @@
+Build type: Release
+YAML Libs: yaml-cpp
+YAML Headers: /usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/../../../../../include
+Boost Libs: Boost::program_options;Boost::filesystem
+Boost Headers: /usr/include
+
+TensorRT NOT Available
+TensorRT NOT FOUND
+
+[31m[1mCMake Error[0m at /catkin_ws/src/rangenet_lib/CMakeLists.txt:59 (message):
+  TensorRT must be installed
+
+    TENSORRT_FOUND OFF
+
+
+

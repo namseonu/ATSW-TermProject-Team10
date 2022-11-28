@@ -1,0 +1,5 @@
+/usr/bin/ld: cannot find -lnvonnxparser_runtime
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/infer.dir/build.make:93: /catkin_ws/devel/.private/rangenet_lib/lib/rangenet_lib/infer] 오류 1
+make[1]: *** [CMakeFiles/Makefile2:200: CMakeFiles/infer.dir/all] 오류 2
+make: *** [Makefile:141: all] 오류 2

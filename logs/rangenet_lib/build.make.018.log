@@ -1,0 +1,11 @@
+[ 25%] Built target rangenet_external
+[35m[1mScanning dependencies of target rangenet_lib[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rangenet_lib.dir/src/netTensorRT.cpp.o[0m
+[01m[K/catkin_ws/src/rangenet_lib/src/netTensorRT.cpp:[m[K In constructor ‘[01m[Krangenet::segmentation::NetTensorRT::NetTensorRT(const string&)[m[K’:
+[01m[K/catkin_ws/src/rangenet_lib/src/netTensorRT.cpp:36:27:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass std::exception[m[K’ by value [[01;35m[K-Wcatch-value=[m[K]
+   36 |   } catch (std::exception [01;35m[Ke[m[K) {
+      |                           [01;35m[K^[m[K
+[ 50%] [32m[1mLinking CXX shared library /catkin_ws/devel/.private/rangenet_lib/lib/librangenet_lib.so[0m
+[ 75%] Built target rangenet_lib
+[ 87%] [32m[1mLinking CXX executable /catkin_ws/devel/.private/rangenet_lib/lib/rangenet_lib/infer[0m
+[100%] Built target infer

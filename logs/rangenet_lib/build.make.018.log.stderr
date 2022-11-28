@@ -1,0 +1,4 @@
+[01m[K/catkin_ws/src/rangenet_lib/src/netTensorRT.cpp:[m[K In constructor ‘[01m[Krangenet::segmentation::NetTensorRT::NetTensorRT(const string&)[m[K’:
+[01m[K/catkin_ws/src/rangenet_lib/src/netTensorRT.cpp:36:27:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass std::exception[m[K’ by value [[01;35m[K-Wcatch-value=[m[K]
+   36 |   } catch (std::exception [01;35m[Ke[m[K) {
+      |                           [01;35m[K^[m[K

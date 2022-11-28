@@ -1,0 +1,8 @@
+prefix=/catkin_ws/devel/.private/glow
+
+Name: glow
+Description: Description of glow
+Version: 0.0.1
+Cflags: -I/catkin_ws/src/glow/src/
+Libs: -L${prefix}/lib -lglow -lglow_util
+Requires: 

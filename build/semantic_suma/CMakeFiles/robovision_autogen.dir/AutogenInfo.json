@@ -1,0 +1,176 @@
+{
+	"BUILD_DIR" : "/catkin_ws/build/semantic_suma/robovision_autogen",
+	"CMAKE_BINARY_DIR" : "/catkin_ws/build/semantic_suma",
+	"CMAKE_CURRENT_BINARY_DIR" : "/catkin_ws/build/semantic_suma",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/catkin_ws/src/semantic_suma",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/catkin_ws/src/semantic_suma",
+	"HEADERS" : 
+	[
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/CompositeParameter.h",
+			"Mu",
+			"U6CBV4ISXE/moc_CompositeParameter.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/FileUtil.h",
+			"Mu",
+			"U6CBV4ISXE/moc_FileUtil.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/Laserscan.h",
+			"Mu",
+			"U6CBV4ISXE/moc_Laserscan.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/Math.h",
+			"Mu",
+			"U6CBV4ISXE/moc_Math.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/Parameter.h",
+			"Mu",
+			"U6CBV4ISXE/moc_Parameter.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/ParameterList.h",
+			"Mu",
+			"U6CBV4ISXE/moc_ParameterList.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/ParameterListIterator.h",
+			"Mu",
+			"U6CBV4ISXE/moc_ParameterListIterator.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/PrimitiveParameters.h",
+			"Mu",
+			"U6CBV4ISXE/moc_PrimitiveParameters.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/Random.h",
+			"Mu",
+			"U6CBV4ISXE/moc_Random.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/RangeParameter.h",
+			"Mu",
+			"U6CBV4ISXE/moc_RangeParameter.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/Stopwatch.h",
+			"Mu",
+			"U6CBV4ISXE/moc_Stopwatch.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/XmlDocument.h",
+			"Mu",
+			"U6CBV4ISXE/moc_XmlDocument.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/XmlNode.h",
+			"Mu",
+			"U6CBV4ISXE/moc_XmlNode.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/string_utils.h",
+			"Mu",
+			"U6CBV4ISXE/moc_string_utils.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/transform.h",
+			"Mu",
+			"U6CBV4ISXE/moc_transform.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/rv/yxml.h",
+			"Mu",
+			"U6CBV4ISXE/moc_yxml.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/catkin_ws/build/semantic_suma/robovision_autogen/include",
+	"MOC_COMPILATION_FILE" : "/catkin_ws/build/semantic_suma/robovision_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BOOST_ALL_NO_LIB",
+		"BOOST_ATOMIC_DYN_LINK",
+		"BOOST_CHRONO_DYN_LINK",
+		"BOOST_DATE_TIME_DYN_LINK",
+		"BOOST_FILESYSTEM_DYN_LINK",
+		"BOOST_REGEX_DYN_LINK",
+		"BOOST_SERIALIZATION_DYN_LINK",
+		"BOOST_SYSTEM_DYN_LINK",
+		"BOOST_THREAD_DYN_LINK",
+		"BOOST_TIMER_DYN_LINK",
+		"QUERY_MEMORY_NV",
+		"ROS_BUILD_SHARED_LIBS=1",
+		"__GL_VERSION=430",
+		"robovision_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/catkin_ws/build/semantic_suma",
+		"/catkin_ws/src/semantic_suma",
+		"/catkin_ws/src/glow/src",
+		"/catkin_ws/src/rangenet_lib/include",
+		"/usr/include/opencv4",
+		"/usr/include/eigen3",
+		"/catkin_ws/src/semantic_suma/src",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/catkin_ws/build/semantic_suma/robovision_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/catkin_ws/build/semantic_suma/CMakeFiles/robovision_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/catkin_ws/build/semantic_suma/CMakeFiles/robovision_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/catkin_ws/src/semantic_suma/src/rv/CompositeParameter.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/rv/FileUtil.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/rv/Laserscan.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/rv/Math.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/rv/Parameter.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/rv/ParameterList.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/rv/ParameterListIterator.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/rv/PrimitiveParameters.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/rv/Random.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/rv/RangeParameter.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/rv/Stopwatch.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/rv/XmlDocument.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/rv/XmlNode.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/rv/string_utils.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/rv/transform.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/rv/yxml.c", "Mu" ]
+	],
+	"VERBOSITY" : 0
+}

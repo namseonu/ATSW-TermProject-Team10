@@ -1,0 +1,9 @@
+In file included from [01m[K/catkin_ws/src/semantic_suma/src/rv/Laserscan.cpp:1[m[K:
+[01m[K/catkin_ws/src/semantic_suma/src/rv/Laserscan.h:17:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/core/core.hpp: 그런 파일이나 디렉터리가 없습니다
+   17 | #include [01;31m[K<opencv2/core/core.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/robovision.dir/build.make:102: CMakeFiles/robovision.dir/src/rv/Laserscan.cpp.o] 오류 1
+make[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+make[1]: *** [CMakeFiles/Makefile2:367: CMakeFiles/robovision.dir/all] 오류 2
+make: *** [Makefile:141: all] 오류 2

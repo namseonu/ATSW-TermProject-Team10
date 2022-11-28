@@ -1,0 +1,131 @@
+{
+	"BUILD_DIR" : "/catkin_ws/build/semantic_suma/suma_autogen",
+	"CMAKE_BINARY_DIR" : "/catkin_ws/build/semantic_suma",
+	"CMAKE_CURRENT_BINARY_DIR" : "/catkin_ws/build/semantic_suma",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/catkin_ws/src/semantic_suma",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/catkin_ws/src/semantic_suma",
+	"HEADERS" : 
+	[
+		[
+			"/catkin_ws/src/semantic_suma/src/core/Frame2Model.h",
+			"Mu",
+			"PRMOGMWJPH/moc_Frame2Model.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/core/ImagePyramidGenerator.h",
+			"Mu",
+			"PRMOGMWJPH/moc_ImagePyramidGenerator.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/core/LieGaussNewton.h",
+			"Mu",
+			"PRMOGMWJPH/moc_LieGaussNewton.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/core/Posegraph.h",
+			"Mu",
+			"PRMOGMWJPH/moc_Posegraph.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/core/Preprocessing.h",
+			"Mu",
+			"PRMOGMWJPH/moc_Preprocessing.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/core/SurfelMap.h",
+			"Mu",
+			"PRMOGMWJPH/moc_SurfelMap.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/core/SurfelMapping.h",
+			"Mu",
+			"PRMOGMWJPH/moc_SurfelMapping.cpp"
+		],
+		[
+			"/catkin_ws/src/semantic_suma/src/core/lie_algebra.h",
+			"Mu",
+			"PRMOGMWJPH/moc_lie_algebra.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/catkin_ws/build/semantic_suma/suma_autogen/include",
+	"MOC_COMPILATION_FILE" : "/catkin_ws/build/semantic_suma/suma_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BOOST_ALL_NO_LIB",
+		"BOOST_ATOMIC_DYN_LINK",
+		"BOOST_CHRONO_DYN_LINK",
+		"BOOST_DATE_TIME_DYN_LINK",
+		"BOOST_FILESYSTEM_DYN_LINK",
+		"BOOST_REGEX_DYN_LINK",
+		"BOOST_SERIALIZATION_DYN_LINK",
+		"BOOST_SYSTEM_DYN_LINK",
+		"BOOST_THREAD_DYN_LINK",
+		"BOOST_TIMER_DYN_LINK",
+		"QUERY_MEMORY_NV",
+		"ROS_BUILD_SHARED_LIBS=1",
+		"__GL_VERSION=430",
+		"suma_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/catkin_ws/build/semantic_suma",
+		"/catkin_ws/src/semantic_suma",
+		"/catkin_ws/src/glow/src",
+		"/catkin_ws/src/rangenet_lib/include",
+		"/usr/include/opencv4",
+		"/usr/include/eigen3",
+		"/catkin_ws/src/semantic_suma/src",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/catkin_ws/build/semantic_suma/suma_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/catkin_ws/build/semantic_suma/CMakeFiles/suma_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/catkin_ws/build/semantic_suma/CMakeFiles/suma_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/catkin_ws/src/semantic_suma/src/core/Frame2Model.cpp", "Mu" ],
+		[
+			"/catkin_ws/src/semantic_suma/src/core/ImagePyramidGenerator.cpp",
+			"Mu"
+		],
+		[ "/catkin_ws/src/semantic_suma/src/core/LieGaussNewton.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/core/Posegraph.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/core/Preprocessing.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/core/SurfelMap.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/core/SurfelMapping.cpp", "Mu" ],
+		[ "/catkin_ws/src/semantic_suma/src/core/lie_algebra.cpp", "Mu" ]
+	],
+	"VERBOSITY" : 0
+}

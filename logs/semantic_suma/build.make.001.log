@@ -1,0 +1,166 @@
+[  1%] [34m[1mAutomatic MOC for target robovision[0m
+[  1%] Built target robovision_autogen
+[35m[1mScanning dependencies of target robovision[0m
+[  9%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/FileUtil.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/robovision.dir/robovision_autogen/mocs_compilation.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/CompositeParameter.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/Math.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/Laserscan.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/Parameter.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/ParameterList.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/ParameterListIterator.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/PrimitiveParameters.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/Random.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/RangeParameter.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/transform.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/Stopwatch.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/XmlNode.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/string_utils.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/robovision.dir/src/rv/XmlDocument.cpp.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/robovision.dir/src/rv/yxml.c.o[0m
+[ 37%] [32m[1mLinking CXX shared library /catkin_ws/devel/.private/semantic_suma/lib/librobovision.so[0m
+[ 37%] Built target robovision
+[35m[1mScanning dependencies of target suma_autogen[0m
+[ 39%] [34m[1mAutomatic MOC for target suma[0m
+[ 39%] Built target suma_autogen
+[ 41%] [34m[1mGenerating computation_shaders.cpp[0m
+[35m[1mScanning dependencies of target suma[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/suma.dir/suma_autogen/mocs_compilation.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/suma.dir/src/core/lie_algebra.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/suma.dir/src/core/SurfelMap.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/suma.dir/src/core/ImagePyramidGenerator.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/suma.dir/src/core/Frame2Model.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/suma.dir/src/core/Preprocessing.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/suma.dir/src/core/SurfelMapping.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/suma.dir/src/core/Posegraph.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/suma.dir/src/core/LieGaussNewton.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/suma.dir/computation_shaders.cpp.o[0m
+In file included from [01m[K/usr/local/include/gtsam/base/types.h:31[m[K,
+                 from [01m[K/usr/local/include/gtsam/global_includes.h:22[m[K,
+                 from [01m[K/usr/local/include/gtsam/base/Vector.h:27[m[K,
+                 from [01m[K/usr/local/include/gtsam/base/Matrix.h:26[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/NoiseModel.h:22[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/core/Posegraph.h:4[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/core/Posegraph.cpp:1[m[K:
+[01m[K/usr/include/tbb/task_scheduler_init.h:21:154:[m[K [01;36m[Knote: [m[K#pragma message: TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.
+   21 | #pragma message("TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual."[01;36m[K)[m[K
+      |                                                                                                                                                          [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/gtsam/base/types.h:31[m[K,
+                 from [01m[K/usr/local/include/gtsam/global_includes.h:22[m[K,
+                 from [01m[K/usr/local/include/gtsam/base/Vector.h:27[m[K,
+                 from [01m[K/usr/local/include/gtsam/base/Matrix.h:26[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/NoiseModel.h:22[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/core/Posegraph.h:4[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/core/SurfelMapping.h:21[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/core/SurfelMapping.cpp:1[m[K:
+[01m[K/usr/include/tbb/task_scheduler_init.h:21:154:[m[K [01;36m[Knote: [m[K#pragma message: TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.
+   21 | #pragma message("TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual."[01;36m[K)[m[K
+      |                                                                                                                                                          [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/gtsam/geometry/Unit3.h:36[m[K,
+                 from [01m[K/usr/local/include/gtsam/geometry/Rot3.h:25[m[K,
+                 from [01m[K/usr/local/include/gtsam/geometry/Pose3.h:24[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/core/Posegraph.cpp:3[m[K:
+[01m[K/usr/include/tbb/mutex.h:21:140:[m[K [01;36m[Knote: [m[K#pragma message: TBB Warning: tbb/mutex.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.
+   21 | #pragma message("TBB Warning: tbb/mutex.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual."[01;36m[K)[m[K
+      |                                                                                                                                            [01;36m[K^[m[K
+[ 62%] [32m[1mLinking CXX shared library /catkin_ws/devel/.private/semantic_suma/lib/libsuma.so[0m
+[ 62%] Built target suma
+[35m[1mScanning dependencies of target visualizer_autogen[0m
+[ 64%] [34m[1mAutomatic MOC for target visualizer[0m
+[ 64%] Built target visualizer_autogen
+[ 66%] [34m[1mGenerating ui_visualizer.h[0m
+[35m[1mScanning dependencies of target visualizer[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/visualizer.dir/visualizer_autogen/mocs_compilation.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/io/RangenetAPI.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/opengl/Model.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/io/KITTIReader.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/io/SimulationReader.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/io/RobocarReader.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/opengl/Mesh.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/util/kitti_utils.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/opengl/ObjReader.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/util/ScanAccumulator.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/visualizer.dir/visualization_shaders.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/visualizer/GraphWidget.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/visualizer/ViewportWidget.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/visualizer/VisualizerWindow.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/visualizer/visualizer.cpp.o[0m
+[01m[K/catkin_ws/src/semantic_suma/src/util/kitti_utils.cpp:[m[K In function ‘[01m[Kvoid KITTI::Odometry::plotErrorPlots(const string&, char*)[m[K’:
+[01m[K/catkin_ws/src/semantic_suma/src/util/kitti_utils.cpp:411:30:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ may write a terminating nul past the end of the destination [[01;35m[K-Wformat-overflow=[m[K]
+  411 |     sprintf(full_name, "%s/%s[01;35m[K"[m[K, dir.c_str(), file_name);
+      |                              [01;35m[K^[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/usr/include/c++/9/cstdio:42[m[K,
+                 from [01m[K/usr/include/c++/9/ext/string_conversions.h:43[m[K,
+                 from [01m[K/usr/include/c++/9/bits/basic_string.h:6496[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/util/kitti_utils.h:4[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/util/kitti_utils.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:36:34:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output 2 or more bytes (assuming 1025) into a destination of size 1024
+   36 |   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   37 | [01;36m[K      __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/catkin_ws/src/semantic_suma/src/util/kitti_utils.cpp:465:40:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive writing up to 1023 bytes into a region of size 1011 [[01;35m[K-Wformat-overflow=[m[K]
+  465 |       sprintf(command, "cd %s; gnuplot [01;35m[K%s[m[K", dir.c_str(), [32m[Kfile_name[m[K);
+      |                                        [01;35m[K^~[m[K                [32m[K~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/usr/include/c++/9/cstdio:42[m[K,
+                 from [01m[K/usr/include/c++/9/ext/string_conversions.h:43[m[K,
+                 from [01m[K/usr/include/c++/9/bits/basic_string.h:6496[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/util/kitti_utils.h:4[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/util/kitti_utils.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:36:34:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output 14 or more bytes (assuming 1037) into a destination of size 1024
+   36 |   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   37 | [01;36m[K      __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/gtsam/base/types.h:31[m[K,
+                 from [01m[K/usr/local/include/gtsam/global_includes.h:22[m[K,
+                 from [01m[K/usr/local/include/gtsam/base/Vector.h:27[m[K,
+                 from [01m[K/usr/local/include/gtsam/base/Matrix.h:26[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/NoiseModel.h:22[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/core/Posegraph.h:4[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/visualizer/ViewportWidget.h:26[m[K,
+                 from [01m[K/catkin_ws/build/semantic_suma/visualizer_autogen/CI5EROZWVQ/moc_ViewportWidget.cpp:9[m[K,
+                 from [01m[K/catkin_ws/build/semantic_suma/visualizer_autogen/mocs_compilation.cpp:3[m[K:
+[01m[K/usr/include/tbb/task_scheduler_init.h:21:154:[m[K [01;36m[Knote: [m[K#pragma message: TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.
+   21 | #pragma message("TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual."[01;36m[K)[m[K
+      |                                                                                                                                                          [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/gtsam/base/types.h:31[m[K,
+                 from [01m[K/usr/local/include/gtsam/global_includes.h:22[m[K,
+                 from [01m[K/usr/local/include/gtsam/base/Vector.h:27[m[K,
+                 from [01m[K/usr/local/include/gtsam/base/Matrix.h:26[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/NoiseModel.h:22[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/core/Posegraph.h:4[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/core/SurfelMapping.h:21[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/visualizer/visualizer.cpp:2[m[K:
+[01m[K/usr/include/tbb/task_scheduler_init.h:21:154:[m[K [01;36m[Knote: [m[K#pragma message: TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.
+   21 | #pragma message("TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual."[01;36m[K)[m[K
+      |                                                                                                                                                          [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/gtsam/base/types.h:31[m[K,
+                 from [01m[K/usr/local/include/gtsam/global_includes.h:22[m[K,
+                 from [01m[K/usr/local/include/gtsam/base/Vector.h:27[m[K,
+                 from [01m[K/usr/local/include/gtsam/base/Matrix.h:26[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/NoiseModel.h:22[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/core/Posegraph.h:4[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/visualizer/ViewportWidget.h:26[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/visualizer/ViewportWidget.cpp:10[m[K:
+[01m[K/usr/include/tbb/task_scheduler_init.h:21:154:[m[K [01;36m[Knote: [m[K#pragma message: TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.
+   21 | #pragma message("TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual."[01;36m[K)[m[K
+      |                                                                                                                                                          [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/gtsam/base/types.h:31[m[K,
+                 from [01m[K/usr/local/include/gtsam/global_includes.h:22[m[K,
+                 from [01m[K/usr/local/include/gtsam/base/Vector.h:27[m[K,
+                 from [01m[K/usr/local/include/gtsam/base/Matrix.h:26[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/NoiseModel.h:22[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/core/Posegraph.h:4[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/core/SurfelMapping.h:21[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/visualizer/VisualizerWindow.h:4[m[K,
+                 from [01m[K/catkin_ws/src/semantic_suma/src/visualizer/VisualizerWindow.cpp:1[m[K:
+[01m[K/usr/include/tbb/task_scheduler_init.h:21:154:[m[K [01;36m[Knote: [m[K#pragma message: TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.
+   21 | #pragma message("TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual."[01;36m[K)[m[K
+      |                                                                                                                                                          [01;36m[K^[m[K
+[ 98%] [32m[1mLinking CXX executable /catkin_ws/src/semantic_suma/bin/visualizer[0m
+[100%] Built target visualizer

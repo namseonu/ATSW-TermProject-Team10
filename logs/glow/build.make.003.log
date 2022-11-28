@@ -1,0 +1,5 @@
+[  5%] Built target gtest
+[ 22%] Built target glow_util
+[ 77%] Built target glow
+[ 82%] Built target gtest_main
+[100%] Built target glow_test

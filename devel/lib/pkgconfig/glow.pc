@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/glow/lib/pkgconfig/glow.pc

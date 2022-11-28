@@ -1,0 +1,16 @@
+In file included from [01m[K/catkin_ws/src/rangenet_lib/src/netTensorRT.cpp:7[m[K:
+[01m[K/catkin_ws/src/rangenet_lib/include/netTensorRT.hpp:9:10:[m[K [01;31m[Kfatal error: [m[KNvInfer.h: 그런 파일이나 디렉터리가 없습니다
+    9 | #include [01;31m[K<NvInfer.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/rangenet_lib.dir/build.make:89: CMakeFiles/rangenet_lib.dir/src/netTensorRT.cpp.o] 오류 1
+make[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+In file included from [01m[K/catkin_ws/src/rangenet_lib/include/selector.hpp:16[m[K,
+                 from [01m[K/catkin_ws/src/rangenet_lib/src/selector.cpp:8[m[K:
+[01m[K/catkin_ws/src/rangenet_lib/include/netTensorRT.hpp:9:10:[m[K [01;31m[Kfatal error: [m[KNvInfer.h: 그런 파일이나 디렉터리가 없습니다
+    9 | #include [01;31m[K<NvInfer.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/rangenet_lib.dir/build.make:76: CMakeFiles/rangenet_lib.dir/src/selector.cpp.o] 오류 1
+make[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/rangenet_lib.dir/all] 오류 2
+make: *** [Makefile:141: all] 오류 2
