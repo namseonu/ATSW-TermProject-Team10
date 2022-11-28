@@ -1,6 +1,8 @@
 # Table of contents
 
 1. [Introduction](#1-introduction)
+   1. [Our project](#1-1-our-project)
+   2. [Our repository](#1-2-our-repository)
 2. [Open source we used](#2-open-source-we-used)
 3. [How to run the open source](#3-how-to-run-the-open-source)
    1. [Build the environment](#3-1-build-the-environment)
@@ -13,6 +15,8 @@
 
 # 1. Introduction
 
+## 1-1. Our project
+
 - 2022-2 Advanced Topic in Software (AT-SW)
 - Term Project & Active Learning
 - Team 10
@@ -22,6 +26,11 @@ This project is an open source implementation project for term project of Gachon
 \* Term Project: A semester project
 
 <br/>
+
+## 1-2. Our repository
+
+<u>This repository is a repository that has uploaded a directory after the build/run is complete. Therefore, refer to the original repository link for the build/run process below.</u>
+
 <br/>
 
 # 2. Open source we used
@@ -31,7 +40,6 @@ This project is an open source implementation project for term project of Gachon
 - Original open source link: [here](https://github.com/PRBonn/semantic_suma)
 - Coressponding paper: [here](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2019iros.pdf)
 
-<br/>
 <br/>
 
 # 3. How to run the open source
@@ -101,7 +109,7 @@ If error with 'libqt5libqgtk2':
 
 ```bash
 # Remove 'libqt5libqgtk2' from the above command (i.e., after installing all the above packages except libqt5libqgtk2 package).
-# Then execute additional command below
+# Then execute additional command below.
 sudo apt-get install qt5-style-plugins
 ```
 
@@ -159,7 +167,7 @@ sudo pip install keras
 📌 **Fifth,** Install the TensorRT:
 
 - Install TensorRT: [Link](https://developer.nvidia.com/tensorrt).
-- Be careful with TensorRT version! (should download 5.1.\*)
+- <u>Be careful with TensorRT version! (should download 5.1.\*)</u>
 
 After Unzip the TensorRT:
 
@@ -170,6 +178,10 @@ pip install --upgrade pip
 Set PATH:
 
 ```bash
+# For example
+#     $ export LIBRARY_PATH="/home/seonnnu/TensorRT/TensorRT-5.1.5.0/lib"
+#     $ export LD_LIBRARY_PATH="/home/seonnnu/TensorRT/TensorrT-5.1.5.0/lib"
+
 export LIBRARY_PATH="{TensorRT_Directory_Path}/lib"
 export LD_LIBRARY_PATH="{TensorRT_Directory_Path}/lib"
 ```
@@ -190,6 +202,8 @@ pip install nvidia-tensorrt
 - Ubuntu 20.04 -> ROS noetic
 
 ```bash
+# Ubuntu 18.04
+# When we execute, the melodic -> noetic
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 apt --fix-broken install
 sudo apt install curl # if you haven't already installed curl
@@ -223,41 +237,40 @@ catkin build rangenet_lib
 If error with TensorRT NOT FOUND:
 
 ```bash
+# For example
+#     $export TRT_LIB_DIR="/home/seonnnu/TensorRT/TensortRT-5.1.5.0/lib"
+
 export TRT_LIB_DIR="{TensorRT_Directory_Path}/lib"
 ```
 
 If error with library:
 
 ```bash
-# Error is:
-# ... /usr/bin/ld: cannot find -l{Library_Name}
-# collect{n}: error: ld returned {n} exit status
+# Error
+#     ... /usr/bin/ld: cannot find -l{Library_Name}
+#     collect{n}: error: ld returned {n} exit status
+
+# If you need the .so.{N} (e.g. .so.5), then write down .so.{N}
+# For example
+#     $ export LD_LIBRARY_PATH="/usr/lib/"
+#     $ sudo ln -s /home/seonnnu/TensorRT/TensorRT-5.1.5.0/lib/libnvinfer.so /usr/lib/libnvinfer.so
+#     $ sudo ln -s /home/seonnnu/cuDNN/cuda/lib64/libcudnn.so.7 /usr/lib/libcudnn.so.7
+
 sudo ln -s {TensorRT_Directory_Path}/lib/lib{Library_Name}.so LD_LIBRARY_PATH/lib{Library_Name}.so
 
-# We set up the LD_LIBRARY_PATH to /usr/lib/ with below command
-export LD_LIBRARY_PATH="/usr/lib/"
-
-# And if you need the .so.{N} (e.g. .so.5), then write down .so.{N}
-
-# For example (For me)
-# sudo ln -s /home/seonnnu/TensorRT/TensorRT-5.1.5.0/lib/libnvinfer.so /usr/lib/libnvinfer.so
-# sudo ln -s /home/seonnnu/cuDNN/cuda/lib64/libcudnn.so.7 /usr/lib/libcudnn.so.7
 ```
-
-<br/>
 
 If error with cuDNN:
 
 ```bash
+# For example (For me)
+#     $ sudo cp /home/seonnnu/cuDNN/cuda/include/cudnn*.h /usr/local/cuda-11.5/include
+#     $ sudo cp -P /home/seonnnu/cuDNN/cuda/lib64/libcudnn* /usr/local/cuda-11.5/lib64
+#     $ sudo chmod a+r /usr/local/cuda-11.5/include/cudnn*.h /usr/local/cuda-11.5/lib64/libcudnn*
+
 sudo cp {cuDNN_Directory_Path}/include/cudnn*.h /usr/local/{CUDA_DIRECTORY}/include
 sudo cp -P {cuDNN_Directory_Path}/lib64/libcudnn* /usr/local/{CUDA_DIRECTORY}/lib64
 sudo chmod a+r {cuDNN_Directory_Path}/include/cudnn*.h /usr/local/{CUDA_DIRECTORY}/lib64/libcudnn*
-
-# For example (For me)
-# sudo cp /home/seonnnu/cuDNN/cuda/include/cudnn*.h /usr/local/cuda-11.5/include
-# sudo cp -P /home/seonnnu/cuDNN/cuda/lib64/libcudnn* /usr/local/cuda-11.5/lib64
-# sudo chmod a+r /usr/local/cuda-11.5/include/cudnn*.h /usr/local/cuda-11.5/lib64/libcudnn*
-
 ```
 
 <br/>
@@ -318,7 +331,7 @@ If error with CMake:
 
 ```plain
 Change line 9 in CMakeLists.txt to:
-find_package(Boost 1.65.1 REQUIRED COMPONENTS filesystem system serialization thread date_time regex timer chrono)
+    find_package(Boost 1.65.1 REQUIRED COMPONENTS filesystem system serialization thread date_time regex timer chrono)
 ```
 
 If error with shared libraries:
@@ -329,26 +342,45 @@ sudo apt-get install libparmetis-dev
 
 <br/>
 
-📌 **Forth,** Execute the visualizer:
+📌 **Fourth,** Execute the visualizer:
 
-```bath
+```bash
+# For example
+#     $ cd /catkin_ws/src/semantic_suma/bin
+#     $ ./visualizer
+
 cd {semantic_suma_Directory}/bin
 ./visualizer
 ```
 
 If error with GLSL \*.\* is not supported:
 
-```bath
+```bash
+# For example
+#     If error with GLSL 3.3 is not supported:
+#     $export MESA_GL_VERSION_OVERRIDE=3.3
+
 export MESA_GL_VERSION_OVERRIDE={*.*}
 ```
 
 <br/>
-<br/>
 
 # 4. Reference
 
+Some references below are the materials that were used to resolve/correct the error, and only the references that help us resolve/correct the error are written.
+
 - [Open source: semantic_suma](https://github.com/PRBonn/semantic_suma)
 - [Open source: rangenet_lib](https://github.com/PRBonn/rangenet_lib)
+- [TensorRT Not Found Ubuntu 20.04](https://github.com/PRBonn/rangenet_lib/issues/36)
+- [catkin 환경에서 작업공간 만들기](http://wiki.ros.org/ko/catkin/Tutorials/create_a_workspace)
+- [Failed building catkin!](https://github.com/catkin/catkin_tools/issues/525)
+- [fatal error: NvOnnxParser.h: No such file or directory](https://github.com/PRBonn/rangenet_lib/issues/14)
+- [fatal error: NvInfer.h: No such file or directory](https://github.com/dusty-nv/jetson-inference/issues/281)
+- [(Compiling Issue) Cannot find TensorRT](https://github.com/PRBonn/rangenet_lib/issues/13)
+- [Catkin Workspace is not on the current folder](https://stackoverflow.com/questions/48055218/catkin-workspace-is-not-on-the-current-folder)
+- [`catkin config` - Configure a Workspace](https://catkin-tools.readthedocs.io/en/latest/verbs/catkin_config.html)
+- [Ubuntu install of ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
+- [E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution)...](https://unix.stackexchange.com/questions/537546/e-unmet-dependencies-try-apt-fix-broken-install-with-no-packages-or-speci)
 - [LeGO-LOAM 패키지 설치](https://jdh1005a.tistory.com/22)
 - [How to fix "fatal error: opencv2/core.hpp: No such file or directory"...](https://stackoverflow.com/questions/58478074/how-to-fix-fatal-error-opencv2-core-hpp-no-such-file-or-directory-for-opencv)
 - [CMake Error when compiling...](https://github.com/PRBonn/semantic_suma/issues/12)
