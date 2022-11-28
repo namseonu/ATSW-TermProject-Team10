@@ -29,6 +29,9 @@ This project is an open source implementation project for term project of Gachon
 
 ## 1-2. Our repository
 
+- The result of SuMa++ execution (including RangeNet++)
+- We use KITTI odometry dataset (velodyne laser data, 80 GB, [more information](https://www.cvlibs.net/datasets/kitti/eval_odometry.php))
+
 <u>This repository is a repository that has uploaded a directory after the build/run is complete. Therefore, refer to the original repository link for the build/run process below.</u>
 
 <br/>
